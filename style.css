@@ -1,0 +1,250 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	font-family: 'Fredoka', sans-serif;
+	font-family: 'Ms Madi', cursive;
+	font-family: 'Rubik', sans-serif;
+	background: #66ffcc;
+}
+
+.container
+{
+	padding-top: 1px;
+	display: flex;
+}
+
+.mobile_container
+{
+	width: 320px;
+	height: 630px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+	background: #000;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.mobile_top_container
+{
+	width: 100%;
+	height: 50px;
+	background: #000;
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.1),inset 5px 0px 10px rgba(255,255,255,0.1),inset -5px 0px 10px rgba(255,255,255,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile_top_container div
+{
+	background: rgba(255,255,255,0.2);
+}
+
+.mobile_top_container div:nth-child(1)
+{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.mobile_top_container div:nth-child(2)
+{
+	width: 70px;
+	height: 7px;
+	border-radius: 10px;
+}
+
+.mobile_top_container div:nth-child(3)
+{
+	width: 7px;
+	height: 7px;
+	margin-left: 10px;
+	margin-right: -10px;
+	border-radius: 50%;
+}
+
+
+/*main screen Container*/
+.main_screen_conatiner
+{
+	width: 100%;
+	height: 550px;
+	/*background: rgba(221,238,248,1);*/
+	background: url('https://i.pinimg.com/736x/b6/98/31/b6983197230699980c513cb349e42af4.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.1),inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.user_name_container
+{
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background: rgba(0,129,255,1);
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.1),inset 10px 0px 2px rgba(0,0,0,0.1),inset -10px 0px 2px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.back
+{
+	transform: rotate(180deg);
+	margin: 0 10px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+
+.user_icon
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.user_icon:active
+{
+	transform: scale(1.1);
+}
+
+.user_name
+{
+	margin-left: 10px;
+}
+
+.dot
+{
+	width: 25px;
+	margin-left: 100px;
+	transform: rotate(90deg);
+	filter: invert(100%);
+  border-radius: 100%;
+}
+
+.dot1
+{
+	width: 25px;
+	margin-left: 80px;
+	transform: rotate(90deg);
+	filter: invert(100%);
+  border-radius: 100%;
+}
+
+
+.user_massage_container
+{
+	width: 100%;
+	height: 440px;
+	overflow-x: auto;
+}
+
+
+.recive_msg
+{
+	width: 100%;
+	margin: 10px 0;
+}
+
+.send_msg
+{
+	width: 100%;
+	margin: 10px 0;
+}
+
+
+.input_container
+{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_tag
+{
+	margin-left: 10px;
+	padding: 0 10px;
+	width: 250px;
+	height: 45px;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	font-size: 15px;
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.1);
+}
+
+.send_btn
+{
+	margin-left: 5px;
+	margin-right: 10px;
+	width: 45px;
+	height: 45px;
+	padding: 3px 10px;  
+	font-size: 25px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: rgba(0,129,255,1);
+	border-radius: 100%;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+
+
+.m1_sender_p1,.m2_sender_p2
+{
+	min-width: 10%;
+	max-width: 60%;
+	padding: 10px;
+	margin: 10px 0;
+	margin-left: auto;
+	margin-right: 10px;
+	border-radius: 10px;
+	color: #fff;
+	background: rgba(0,129,255,1);
+}
+
+
+
+.m1_sender_p2,.m2_sender_p1
+{
+	min-width: 10%;
+	max-width: 60%;
+	padding: 10px;
+	margin: 10px 0;
+	margin-left: 10px;
+	border-radius: 10px;
+	background: rgba(255,255,255,1);
+}
+
+
+
+
+/*bottom btns container*/
+
+.bottom_btns_container
+{
+	width: 100%;
+	height: 30px;
+	background: #000;
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.1),inset 5px 0px 10px rgba(255,255,255,0.1),inset -5px 0px 10px rgba(255,255,255,0.1);
+}
